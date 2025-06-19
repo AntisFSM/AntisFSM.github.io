@@ -93,8 +93,8 @@ const config = {
         },
         items: [
 
-          {to: '/blog', label: 'Project', position: 'left'},
-          {to: '/think', label: 'Think', position: 'left'},
+          {to: '/blog/old', label: 'Project', position: 'left'},
+          {to: '/blog/think', label: 'Think', position: 'left'},
             {
               href: 'https://github.com/AntisFSM/AntisFSM.github.io',
               label: 'GitHub',
