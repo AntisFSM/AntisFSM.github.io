@@ -112,7 +112,7 @@ const config = {
         title: 'Antis, the GameMaker',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo_SMS.svg',
           //src: 'img/soomaksae_social_card.png',
         },
         items: [
