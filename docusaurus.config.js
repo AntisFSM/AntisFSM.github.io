@@ -12,7 +12,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Under Construction',
   tagline: '공사중입니다',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon_sms.ico',
 
   // 에러 발생했던 내용 추가
   deploymentBranch: 'gh-pages',
@@ -57,27 +57,51 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
-          showReadingTime: true,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: true,
-          },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
+        // {
+        //   showReadingTime: true,
+        //   feedOptions: {
+        //     type: ['rss', 'atom'],
+        //     xslt: true,
+        //   },
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+        //   // Useful options to enforce blogging best practices
+        //   onInlineTags: 'warn',
+        //   onInlineAuthors: 'warn',
+        //   onUntruncatedBlogPosts: 'warn',
+        // },
         theme: {
           customCss: './src/css/custom.css',
         },
       }),
     ],
   ],
+
+  plugins: [
+  // /blog/old 경로용
+  [
+    '@docusaurus/plugin-content-blog',
+    {
+      id: 'old',
+      routeBasePath: 'blog/old',
+      path: './blog/old',
+      authorsMapPath: './blog/authors.yml'
+    },
+  ],
+  // /blog/think 경로용
+  [
+    '@docusaurus/plugin-content-blog',
+    {
+      id: 'think',
+      routeBasePath: 'blog/think',
+      path: './blog/think',
+      authorsMapPath: './blog/authors.yml'
+    },
+  ],
+],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -88,7 +112,7 @@ const config = {
         title: 'Antis, the GameMaker',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo_SMS.svg',
+          src: 'img/logo.svg',
           //src: 'img/soomaksae_social_card.png',
         },
         items: [
