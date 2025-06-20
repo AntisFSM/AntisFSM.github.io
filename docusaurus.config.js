@@ -88,7 +88,9 @@ const config = {
       id: 'old',
       routeBasePath: 'blog/old',
       path: './blog/old',
-      authorsMapPath: './blog/authors.yml'
+      authorsMapPath: './blog/authors.yml',
+      blogSidebarCount: 0,
+      blogSidebarTitle: ' ',
     },
   ],
   // /blog/think 경로용
@@ -98,7 +100,9 @@ const config = {
       id: 'think',
       routeBasePath: 'blog/think',
       path: './blog/think',
-      authorsMapPath: './blog/authors.yml'
+      authorsMapPath: './blog/authors.yml',
+      blogSidebarCount: 0,
+      blogSidebarTitle: ' ',
     },
   ],
 ],
