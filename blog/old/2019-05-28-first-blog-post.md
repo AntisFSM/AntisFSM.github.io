@@ -2,6 +2,7 @@
 slug: first-blog-post
 title: First Blog Post
 # authors: [slorber, yangshun]
+project: ProjectA
 tags: [hola, docusaurus]
 ---
 
