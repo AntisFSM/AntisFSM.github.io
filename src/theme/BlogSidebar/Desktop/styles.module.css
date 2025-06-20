@@ -12,10 +12,34 @@
   top: calc(var(--ifm-navbar-height) + 2rem);
 }
 
-.sidebarItemTitle {
+.projectGroup summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
   font-size: var(--ifm-h3-font-size);
   font-weight: var(--ifm-font-weight-bold);
 }
+
+.projectGroup summary::-webkit-details-marker {
+  display: none;
+}
+
+.projectGroup summary::before {
+  content: '▸';
+  display: inline-block;
+  margin-right: 0.3rem;
+  transition: transform 0.2s ease;
+}
+
+.projectGroup[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.projectGroup > ul {
+  margin-left: 1rem;
+}
+
 
 .sidebarItemList {
   font-size: 0.9rem;

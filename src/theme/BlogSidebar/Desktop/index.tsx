@@ -13,12 +13,9 @@ export default memo(function DesktopWrapper({sidebar}: Props): ReactNode {
         className={clsx(styles.sidebar, 'thin-scrollbar')}
         aria-label={translate({
           id: 'theme.blog.sidebar.navAriaLabel',
-          message: 'Blog recent posts navigation',
+          message: 'Blog sidebar navigation',
         })}
       >
-        <div className={clsx(styles.sidebarItemTitle, 'margin-bottom--md')}>
-          {sidebar.title}
-        </div>
         <BlogSidebarContent />
       </nav>
     </aside>
