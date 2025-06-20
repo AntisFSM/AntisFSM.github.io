@@ -2,6 +2,7 @@
 slug: long-blog-post
 title: Long Blog Post
 # authors: yangshun
+project: ProjectA
 tags: [hello, docusaurus]
 ---
 
