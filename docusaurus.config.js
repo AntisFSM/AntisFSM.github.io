@@ -108,6 +108,11 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/soomaksae_social_card.png',
+      blog: {
+        sidebar: {
+          groupByYear: false,
+        },
+      },
       navbar: {
         title: 'Antis, the GameMaker',
         logo: {
