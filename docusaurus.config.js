@@ -81,13 +81,13 @@ const config = {
   ],
 
   plugins: [
-  // /blog/old 경로용
+  // /blog/project 경로용
   [
     '@docusaurus/plugin-content-blog',
     {
       id: 'old',
-      routeBasePath: 'blog/old',
-      path: './blog/old',
+      routeBasePath: 'blog/project',
+      path: './blog/project',
       authorsMapPath: './blog/authors.yml'
     },
   ],
@@ -117,7 +117,7 @@ const config = {
         },
         items: [
 
-          {to: '/blog/old', label: 'Project', position: 'left'},
+          {to: '/blog/project', label: 'Project', position: 'left'},
           {to: '/blog/think', label: 'Think', position: 'left'},
             {
               href: 'https://github.com/AntisFSM/AntisFSM.github.io',
