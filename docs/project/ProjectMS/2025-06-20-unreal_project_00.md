@@ -5,6 +5,8 @@ tags: [UnrealEngine]
 date: 2025-06-22
 hide_table_of_contents: false
 ---
+import FigureWithCaption from '@site/src/components/FigureWithCaption';
+
 
 지금 하고 있는 자기계발을 온라인에 좀 올려보려고 한다.  
 부끄럽긴 한데, 이런저런 이유들이 있어서 해보는게 좋겠다는 생각이다.
@@ -21,3 +23,11 @@ hide_table_of_contents: false
 3.  (특이사항) 유료 강의 등으로 학습한 내용도 포함되어 있기 때문에, 해당 내용은 적당히 넘어갈 수 있음!
 
 아, 그리고 프로젝트 MS는 미소녀 세키로의 줄임말이다.
+
+<FigureWithCaption caption="언리얼 엔진 5 덕분에 많은 걸 해본다.">
+  <img
+    src="/img/ProjectMS/ms-00-01.png"
+    alt="언리얼 엔진 5 덕분에 많은 걸 해본다."
+    style={{ maxWidth: '100%' }}
+  />
+</FigureWithCaption>

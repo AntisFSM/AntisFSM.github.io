@@ -103,11 +103,29 @@ const config = {
       authorsMapPath: './blog/authors.yml'
     },
   ],
+  //이미지 누르면 줌되는 기능
+  require.resolve('docusaurus-plugin-image-zoom')
 ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      zoom: {
+      // 확대를 적용할 셀렉터
+        selector: '.markdown img',
+
+      // 확대 시 배경. light/dark 모드를 모두 지정해 줄 수 있습니다.
+        background: {
+          light: 'rgba(255, 255, 255, 0.8)',
+          dark:  'rgba(0, 0, 0, 0.8)',
+        },
+
+      // medium-zoom 에 전달할 옵션
+        config: {
+          margin: 24,
+          scrollOffset: 0,
+          },
+      },
       // Replace with your project's social card
       image: 'img/soomaksae_social_card.png',
       blog: {
@@ -156,6 +174,7 @@ const config = {
             },
         ],
       },
+      
       footer: {
         style: 'dark',
         // links: [

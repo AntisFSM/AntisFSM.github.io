@@ -3,8 +3,8 @@ slug: unreal-project-01
 title: 01. 현재 개발 상황 정리
 # authors: [slorber, yangshun]
 tags: [UnrealEngine]
-hide_table_of_contents: false
 ---
+import FigureWithCaption from '@site/src/components/FigureWithCaption';
 
 어디서부터 글을 정리해야 하나 고민하다가, 우선은 만든 내용을 정리하는 것 부터 하기로 했다.  
 그래서 현재까지 내가 무엇을 만들었는지 나열하는 작업을 하고, (이 문서)  
@@ -15,9 +15,16 @@ _※ 요새 느낀 건데, 우선 빨리 쓰고 고치는 게 마음도 편하�
 
 ### 전투 영상
 
-<iframe src="https://play-tv.kakao.com/embed/player/cliplink/455935091?service=daum_tistory" width="860" height="573" frameborder="0" allowfullscreen="true"></iframe>
-
-백문이 불여일견. 현재 전투는 이렇게 구현되어 있다.
+<FigureWithCaption caption="백문이 불여일견. 현재 전투는 이렇게 구현되어 있다.">
+  <iframe
+    width="800"
+    height="600"
+    src="https://www.youtube.com/embed/CJNPtVBfnL4"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+  />
+</FigureWithCaption>
 
 **플레이어 기능**
 
@@ -27,6 +34,8 @@ _※ 요새 느낀 건데, 우선 빨리 쓰고 고치는 게 마음도 편하�
 -   콤보 공격 (약공격, 강공격)
 -   가드 (퍼펙트 가드 있음)
 -   타겟 락온 (락온 시 무브셋 변경)
+-   방향에 따라 히트 리액트 재생
+-   사망 처리
 
 **몬스터 기능**
 
@@ -35,6 +44,7 @@ _※ 요새 느낀 건데, 우선 빨리 쓰고 고치는 게 마음도 편하�
 -   이동 및 플레이어 위치 바라보기
 -   가드 불가 스킬
 -   투사체 스킬 (영상의 보스는 사용하지 않음)
+-   히트 리액션 및 사망
 
 **공용 기능**
 
@@ -81,4 +91,10 @@ Udemy에서 액션 RPG 관련 강의가 있어, 해당 강의를 통해 GAS(Game
 라고 글을 올리고 다시 영상을 자세히 보니, 엔비가 검집 채로 공격을 진행하고 있었다는 충격적인 사실을 깨달았다...  
 블렌더에서 가져왔을 때 별도로 메쉬가 나눠져 있지 않아서 헷갈려버렸다...!
 
-!["다음 시간에는 칼집과 칼을 분리해야겠다."]
+<FigureWithCaption caption="다음 시간에는 칼집과 칼을 분리해야겠다.">
+  <img
+    src="/img/ProjectMS/ms-01-01.png"
+    alt="다음 시간에는 칼집과 칼을 분리해야겠다."
+    style={{ maxWidth: '100%' }}
+  />
+</FigureWithCaption>
