@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[9809],{2729:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\uc561\uc158\uc774\ub780 \ubb34\uc5c7\uc77c\uae4c","permalink":"/blog/think/Think-About-Action","unlisted":false,"date":"2025-06-21T00:00:00.000Z"}]}')}}]);
