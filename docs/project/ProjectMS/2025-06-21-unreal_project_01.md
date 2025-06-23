@@ -5,6 +5,7 @@ title: 01. 현재 개발 상황 정리
 tags: [UnrealEngine]
 ---
 import FigureWithCaption from '@site/src/components/FigureWithCaption';
+import ResponsiveVideo    from '@site/src/components/ResponsiveVideo';
 
 어디서부터 글을 정리해야 하나 고민하다가, 우선은 만든 내용을 정리하는 것 부터 하기로 했다.  
 그래서 현재까지 내가 무엇을 만들었는지 나열하는 작업을 하고, (이 문서)  
@@ -16,11 +17,8 @@ _※ 요새 느낀 건데, 우선 빨리 쓰고 고치는 게 마음도 편하�
 ### 전투 영상
 
 <FigureWithCaption caption="백문이 불여일견. 현재 전투는 이렇게 구현되어 있다.">
-  <iframe
-    width="800"
-    height="600"
-    src="https://www.youtube.com/embed/CJNPtVBfnL4"
-    frameBorder="0"
+  <ResponsiveVideo
+    src="https://www.youtube.com/embed/CJNPtVBfnL4"    
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
   />
@@ -94,7 +92,7 @@ Udemy에서 액션 RPG 관련 강의가 있어, 해당 강의를 통해 GAS(Game
 <FigureWithCaption caption="다음 시간에는 칼집과 칼을 분리해야겠다.">
   <img
     src="/img/ProjectMS/ms-01-01.png"
-    alt="다음 시간에는 칼집과 칼을 분리해야겠다."
+    alt="ZZZ 앤비 칼 모델링을 언리얼엔진5로 익스포트한 스크린샷."
     style={{ maxWidth: '100%' }}
   />
 </FigureWithCaption>

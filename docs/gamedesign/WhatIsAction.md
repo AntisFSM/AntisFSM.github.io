@@ -1,5 +1,5 @@
 ---
-slug: unreal-project-00
+slug: what-is-action
 sidebar_position: 1
 title: 액션이란 무엇인가
 tags: [UnrealEngine]

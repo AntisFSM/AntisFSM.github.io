@@ -4,6 +4,7 @@ title: 02. 칼과 칼집 분리해서 사용하기
 tags: [UnrealEngine]
 ---
 import FigureWithCaption from '@site/src/components/FigureWithCaption';
+import ResponsiveVideo    from '@site/src/components/ResponsiveVideo';
 
 저번 글 마지막에 엔비 무기를 검집 채로 휘두르게 만들고 있었다는 사실을 발견하고,  
 해당 모델링을 수정해서 넣는 작업을 하기로 했었다.
@@ -14,7 +15,7 @@ import FigureWithCaption from '@site/src/components/FigureWithCaption';
 <FigureWithCaption caption="">
   <img
     src="/img/ProjectMS/ms-02-01.png"
-    alt="다음 시간에는 칼집과 칼을 분리해야겠다."
+    alt="ZZZ 앤비 칼 모델링을 블렌더에서 연 사진."
     style={{ maxWidth: '100%' }}
   />
 </FigureWithCaption>
@@ -29,7 +30,7 @@ import FigureWithCaption from '@site/src/components/FigureWithCaption';
 <FigureWithCaption caption="">
   <img
     src="/img/ProjectMS/ms-02-02.png"
-    alt="다음 시간에는 칼집과 칼을 분리해야겠다."
+    alt="블렌더: Pose Mode에서 엔비의 칼과 칼집을 분리한 모습."
     style={{ maxWidth: '100%' }}
   />
 </FigureWithCaption>
@@ -39,7 +40,7 @@ Edit Mode에서 열심히 Vertex와 Edge를 지워주는 방법으로 칼 모델
 <FigureWithCaption caption="머티리얼도 잘 적용되어 있다.">
   <img
     src="/img/ProjectMS/ms-02-03.png"
-    alt="다음 시간에는 칼집과 칼을 분리해야겠다."
+    alt="블렌더: ZZZ 엔비의 칼만 남기고, 머티리얼을 적용해 본 모습."
     style={{ maxWidth: '100%' }}
   />
 </FigureWithCaption>
@@ -53,7 +54,7 @@ Edit Mode에서 열심히 Vertex와 Edge를 지워주는 방법으로 칼 모델
 <FigureWithCaption caption="">
   <img
     src="/img/ProjectMS/ms-02-04.png"
-    alt="다음 시간에는 칼집과 칼을 분리해야겠다."
+    alt="언리얼엔진5: 스태틱 메쉬로 위의 칼 모델링을 임포트해서 확인하는 모습."
     style={{ maxWidth: '100%' }}
   />
 </FigureWithCaption>
@@ -63,7 +64,7 @@ Edit Mode에서 열심히 Vertex와 Edge를 지워주는 방법으로 칼 모델
 <FigureWithCaption caption="">
   <img
     src="/img/ProjectMS/ms-02-05.png"
-    alt="다음 시간에는 칼집과 칼을 분리해야겠다."
+    alt="언리얼엔진5: 엔비의 스켈레탈 메쉬에 소켓 위치를 잡아준 모습."
     style={{ maxWidth: '100%' }}
   />
 </FigureWithCaption>
@@ -79,14 +80,14 @@ Edit Mode에서 열심히 Vertex와 Edge를 지워주는 방법으로 칼 모델
 <FigureWithCaption caption="">
   <img
     src="/img/ProjectMS/ms-02-06.png"
-    alt="다음 시간에는 칼집과 칼을 분리해야겠다."
+    alt="언리얼엔진5: 칼집 스폰하는 게임어빌리티 시스템 블루프린트(1)."
     style={{ maxWidth: '100%' }}
   />
 </FigureWithCaption>
 <FigureWithCaption caption="">
   <img
     src="/img/ProjectMS/ms-02-07.png"
-    alt="다음 시간에는 칼집과 칼을 분리해야겠다."
+    alt="언리얼엔진5: 칼집 스폰하는 게임어빌리티 시스템 블루프린트(2)."
     style={{ maxWidth: '100%' }}
   />
 </FigureWithCaption>
@@ -98,11 +99,8 @@ Edit Mode에서 열심히 Vertex와 Edge를 지워주는 방법으로 칼 모델
 엔진에서 애니메이션을 수정할 수 있는 기능이 있던데, 해당 기능 공부도 할 겸 해서 등 쪽에서 뽑아오는 애니로 변경을 시도해 볼까 고민하는 중이다. 등 쪽이 조금 과하다면, 수납할 때 어색한 애니라도 고쳤으면 하는 느낌이다.
 
 <FigureWithCaption caption="칼집과 칼 분리 성공!">
-  <iframe
-    width="800"
-    height="600"
-    src="https://www.youtube.com/embed/mFgxnl_jieE"
-    frameBorder="0"
+  <ResponsiveVideo
+    src="https://www.youtube.com/embed/mFgxnl_jieE"    
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowFullScreen
   />

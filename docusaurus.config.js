@@ -218,7 +218,18 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} AntisFSM.`,
+      links: [
+        {
+          title: 'Contact',
+          items: [
+            {
+              label: 'E-Mail',
+              href: 'mailto:antis0628@gmail.com',
+            },
+          ],
+        },
+      ],
+        copyright: `Copyright © ${new Date().getFullYear()} AntisFSM.`, 
       },
       prism: {
         theme: prismThemes.github,
