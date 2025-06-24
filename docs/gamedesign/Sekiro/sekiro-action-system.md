@@ -15,7 +15,7 @@ import WhimsicalEmbed from '@site/src/components/WhimsicalEmbed';
 
 <FigureWithCaption caption="프롬 소프트웨어의 세키로.">
   <img
-    src="/img/sekiro/sekiro-shadows-die-twice-xbox-one-game-microsoft-store-cover.jpg"
+    src="/img/Sekiro/sekiro-shadows-die-twice-xbox-one-game-microsoft-store-cover.jpg"
     alt="세키로 타이틀 이미지."
     style={{ maxWidth: '75%' }}
   />
@@ -28,7 +28,7 @@ import WhimsicalEmbed from '@site/src/components/WhimsicalEmbed';
 다른 잠입 액션들과 같이, 들키지 않은 적들을 즉시 처치하는 기믹을 가지고 있어 시원한 레벨 진행이 특징이다.
 <FigureWithCaption caption="적을 암살하기 위해 벽 뒤에서 대기.">
   <img
-    src="/img/sekiro/sekiro-action-03.png"
+    src="/img/Sekiro/sekiro-action-03.png"
     alt="적을 암살하기 위해 대기하는 모습."
     style={{ maxWidth: '75%' }}
   />
@@ -39,7 +39,7 @@ import WhimsicalEmbed from '@site/src/components/WhimsicalEmbed';
 오히려 소울 시리즈를 잘 할수록 전투 적응에 시간이 걸리기도 했다.
 <FigureWithCaption caption="보스와는 치열한 칼싸움 액션을 벌여야 한다.">
   <img
-    src="/img/sekiro/sekiro-action-01.png"
+    src="/img/Sekiro/sekiro-action-01.png"
     alt="적 보스와 전투 중인 모습."
     style={{ maxWidth: '75%' }}
   />
@@ -47,7 +47,7 @@ import WhimsicalEmbed from '@site/src/components/WhimsicalEmbed';
 
 <FigureWithCaption caption="전투 방식이 달라도 어렵기는 매한가지.">
   <img
-    src="/img/sekiro/sekiro-action-02.png"
+    src="/img/Sekiro/sekiro-action-02.png"
     alt="세키로 인게임 사망 화면."
     style={{ maxWidth: '75%' }}
   />
@@ -90,7 +90,7 @@ import WhimsicalEmbed from '@site/src/components/WhimsicalEmbed';
 하지만 `회피`, `방어` 는 타이밍이 중요하기 때문에, 모든 플레이어가 완벽하게 수행할 수 없다.
 
 `물약` 도 추가해주자. 아이템을 소비하여 체력을 회복시키는 시스템이다.  
-플레이어가 피격되어도, 어느 정도는 안심하고 플레이를 이어나갈 수 있다.
+플레이어가 피격되어도, 어느 정도는 안심하고 플레이를 이어나갈 수 있다.  
 
 
 ### 암살
