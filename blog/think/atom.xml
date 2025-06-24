@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://AntisFSM.github.io/blog/think</id>
-    <title>Under Construction Blog</title>
+    <title>Antis, the GameMaker Blog</title>
     <updated>2025-06-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://AntisFSM.github.io/blog/think"/>
-    <subtitle>Under Construction Blog</subtitle>
+    <subtitle>Antis, the GameMaker Blog</subtitle>
     <icon>https://AntisFSM.github.io/img/favicon_sms.ico</icon>
     <entry>
         <title type="html"><![CDATA[액션이란 무엇일까]]></title>
