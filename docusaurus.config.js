@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Under Construction',
-  tagline: '공사중입니다',
+  title: 'Antis, the GameMaker',
+  tagline: '게임 디자이너 앤티스의 블로그입니다.',
   favicon: 'img/favicon_sms.ico',
 
   // 에러 발생했던 내용 추가
@@ -141,12 +141,6 @@ const config = {
           //src: 'img/soomaksae_social_card.png',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
           {
             type: 'docSidebar',
             sidebarId: 'projectSidebar',

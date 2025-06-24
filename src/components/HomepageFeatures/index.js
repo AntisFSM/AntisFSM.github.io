@@ -4,32 +4,35 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '게임 디자이너',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        대한민국 서울에서 게임 기획자로 일하고 있습니다.<br></br>
+        콘텐츠, 레벨 기획을 주로 맡고 있습니다.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '현재 관심사',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        1. 재밌는 게임이란 무엇인지 계속 고민하고 있습니다.<br></br>
+        2. AI를 스승 삼아, 게임 만드는 법을 배우고 있습니다.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '인생 게임',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        크로노 트리거,
+        록맨 X3,
+        데몬즈 소울,<br></br>
+        페르소나3,
+        폴아웃3, 젤다:야숨
       </>
     ),
   },

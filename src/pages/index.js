@@ -16,13 +16,7 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="docs/tutorial/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
+
       </div>
     </header>
   );
@@ -32,8 +26,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      title={`Antis, the GameMaker`}
+      description="게임디자이너 앤티스의 블로그입니다. <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

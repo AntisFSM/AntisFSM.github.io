@@ -42,3 +42,24 @@
   width: 100%; height: 100%;
   border: none;
 }
+
+/*폰트 관련 설정*/
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+  --ifm-font-family-base: 'Pretendard-Regular', sans-serif;
+  --ifm-font-family-headings: 'Pretendard-Regular', sans-serif;  
+}
+
+/* 코드 블록과 인라인 코드 모두에 Pretendard를 강제 적용 */
+pre[class*="language-"],
+code[class*="language-"],
+.inline-code, /* .inline-code 클래스가 있다면 */
+.markdown code {
+  font-family: 'Pretendard-Regular', sans-serif !important;
+}
