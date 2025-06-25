@@ -93,13 +93,13 @@ const config = {
       authorsMapPath: './blog/authors.yml'
     },
   ],
-  // /blog/think 경로용
+  // /blog/review 경로용
   [
     '@docusaurus/plugin-content-blog',
     {
-      id: 'think',
-      routeBasePath: 'blog/think',
-      path: './blog/think',
+      id: 'review',
+      routeBasePath: 'blog/review',
+      path: './blog/review',
       authorsMapPath: './blog/authors.yml'
     },
   ],
@@ -130,7 +130,7 @@ const config = {
       image: 'img/soomaksae_social_card.png',
       blog: {
         sidebar: {
-          groupByYear: false,
+          groupByYear: true,          
         },
       },
       navbar: {
@@ -154,18 +154,22 @@ const config = {
             label: 'Game Design',
           },
           //블로그 같은 글 쓰기 전까지는 꺼놓기.
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            to: '/blog/review',
+            label: 'Review',
+            position: 'left'
+          },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
           //   position: 'right',
           // },           
 
-            {
-              href: 'https://github.com/AntisFSM/AntisFSM.github.io',
-              label: 'GitHub',
-              position: 'right',
-            },
+          {
+            href: 'https://github.com/AntisFSM/AntisFSM.github.io',
+            label: 'GitHub',
+            position: 'right',
+          },
         ],
       },
       

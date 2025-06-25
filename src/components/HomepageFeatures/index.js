@@ -14,12 +14,12 @@ const FeatureList = [
     ),
   },
   {
-    title: '현재 관심사',
+    title: '오타쿠',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        1. 재밌는 게임이란 무엇인지 계속 고민하고 있습니다.<br></br>
-        2. AI를 스승 삼아, 게임 만드는 법을 배우고 있습니다.
+        스즈미야 하루히, 페이트 세대입니다.<br></br>
+        이세계물의 거대한 흐름을 아직 받아들이지 못하는 중.
       </>
     ),
   },
@@ -31,8 +31,7 @@ const FeatureList = [
         크로노 트리거,
         록맨 X3,
         데몬즈 소울,<br></br>
-        페르소나3,
-        폴아웃3, 젤다:야숨
+        폴아웃3, 슬레이 더 스파이어, 젤다:야숨
       </>
     ),
   },
